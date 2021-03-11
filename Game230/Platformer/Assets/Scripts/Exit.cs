@@ -8,7 +8,7 @@ public class Exit : MonoBehaviour
     [SerializeField] float LevelLoadDelay = 2.0f;
     [SerializeField] float sloMoFactor = 0.2f;
 
-    void OnTiggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     { 
             StartCoroutine(LoadNextLevel());
     }

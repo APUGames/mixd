@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5125899714914771151}
   - component: {fileID: 5125899714914771120}
   - component: {fileID: 5125899714914771150}
+  - component: {fileID: -8525320461470435747}
   m_Layer: 14
   m_Name: Coin
   m_TagString: Untagged
@@ -71,7 +72,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -698025015
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -2322180950842035098, guid: fc4cc5f6d5b9f894c809f72869e3ea19,
     type: 3}
@@ -130,3 +131,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-8525320461470435747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5125899714914771122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0961a1610b96d94091d1201fdec57b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CoinPickupSFX: {fileID: 8300000, guid: 58e233e225ac8af4eb5c1d9db6c6b6d2, type: 3}
+  coinValue: 1

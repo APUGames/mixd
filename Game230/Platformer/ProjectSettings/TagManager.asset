@@ -47,6 +47,9 @@ TagManager:
   - name: Water
     uniqueID: 4962715
     locked: 0
+  - name: Hazards
+    uniqueID: 1340904029
+    locked: 0
   - name: Foreground
     uniqueID: 1534074747
     locked: 0
@@ -61,7 +64,4 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 1268740205
-    locked: 0
-  - name: Hazards
-    uniqueID: 1340904029
     locked: 0

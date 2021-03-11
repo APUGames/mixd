@@ -54,9 +54,10 @@ public class GameSession : MonoBehaviour
 
     public void ProcessPlayerScore(int points)
     {
-        score += points;
-        score.text = points.ToString();
+        playerScore += points;
+        score.text = playerScore.ToString();
     }
+
 
     private void ResetGameSession()
     {
