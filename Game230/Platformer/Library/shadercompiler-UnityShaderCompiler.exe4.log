@@ -1,4 +1,4 @@
 Base path: 'C:/2020.1.9f1/Editor/Data', plugins path 'C:/2020.1.9f1/Editor/Data/PlaybackEngines'
 Cmd: initializeCompiler
 Cmd: compileComputeKernel
-  api=4 insize=1957 outsize=1387 ok=1
+  api=9 insize=1957 outsize=1541 ok=1
